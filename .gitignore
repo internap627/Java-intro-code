@@ -20,3 +20,26 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+   public static void main(String[] args) {
+        // write your code here
+
+        // print 1234 on 4 lines
+
+        for(int a=1;a<=10;a++)
+
+
+        {
+            if(a==5)
+            {
+                continue;
+            }
+
+            System.out.println("value is " + a);
+        }
+
+
+    }
+
+}
